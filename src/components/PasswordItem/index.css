@@ -1,0 +1,101 @@
+.password-item {
+  background-color: #454f84;
+  border-radius: 8px;
+  padding: 15px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .password-item {
+    width: calc(33.33% - 15px);
+  }
+}
+
+.password-details {
+  display: flex;
+  align-items: center;
+}
+
+.initial-container {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.initial-0 {
+  background-color: #f59e0b;
+}
+.initial-1 {
+  background-color: #10b981;
+}
+.initial-2 {
+  background-color: #f97316;
+}
+.initial-3 {
+  background-color: #14b8a6;
+}
+.initial-4 {
+  background-color: #b91c1c;
+}
+.initial-5 {
+  background-color: #0ea5e9;
+}
+.initial-6 {
+  background-color: #7683cb;
+}
+.initial-7 {
+  background-color: #14b8a6;
+}
+.initial-8 {
+  background-color: #b91c1c;
+}
+.initial-9 {
+  background-color: #0ea5e9;
+}
+
+.initial {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.user-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.website {
+  color: #ffffff;
+  font-size: 16px;
+  margin: 0 0 5px 0;
+}
+
+.username,
+.password {
+  color: #94a3b8;
+  font-size: 14px;
+  margin: 0 0 5px 0;
+}
+
+.stars-image {
+  width: 100px;
+  height: 15px;
+}
+
+.delete-button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-icon {
+  width: 20px;
+}
